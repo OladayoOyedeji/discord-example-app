@@ -11,7 +11,7 @@ import { getRandomEmoji } from './utils.js';
 const app = express();
 // Get port, or default to 3000
 const PORT = process.env.PORT || 3000;
-
+ 
 /**
  * Interactions endpoint URL where Discord will send HTTP requests
  * Parse request body and verifies incoming requests using discord-interactions package
